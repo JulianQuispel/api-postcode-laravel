@@ -19,5 +19,15 @@
     "psr-4": {
       "ApiPostcode\\": ""
     }
-  }
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "ApiPostcode\\ApiPostcodeServiceProvider"
+        ],
+        "aliases": {
+            "Debugbar": "ApiPostcode\\Facade"
+        }
+    }
+},
 }
